@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Lexend+Deca:wght@300&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+  body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 16px;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+  }
+  .sedan {
+    position: relative;
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    color: hsl(0, 0%, 95%);
+  }
+  .suv {
+    position: relative;
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    color: hsl(0, 0%, 95%);
+  }
+  .luxury {
+    position: relative;
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    color: hsl(0, 0%, 95%);
+  }
+  h2 {
+    margin: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+  
+  .button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px;
+  
+  }
+  .sedan .button .button-two {
+    color:  hsl(31, 77%, 52%);
+    ;
+  }
+  .suv .button .button-two {
+    color:  hsl(184, 100%, 22%);
+    ;
+  }
+  .luxury .button .button-two {
+    color:  hsl(179, 100%, 13%);
+    ;
+  }
+  .button .button-two {
+    background-color: hsl(0, 0%, 95%);
+    position: absolute;
+  
+  border: none;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 50px;
+    transition: 0.4s;
+    text-align: center;
+  }
+  .button .button-two:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
